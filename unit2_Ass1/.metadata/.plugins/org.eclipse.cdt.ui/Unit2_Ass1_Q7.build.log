@@ -1,0 +1,7 @@
+16:55:08 **** Incremental Build of configuration Debug for project Unit2_Ass1_Q7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Ass1_Q7.o" "..\\src\\Unit2_Ass1_Q7.c" 
+gcc -o Unit2_Ass1_Q7.exe "src\\Unit2_Ass1_Q7.o" 
+
+16:55:09 Build Finished (took 301ms)
+

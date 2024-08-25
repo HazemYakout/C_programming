@@ -1,0 +1,6 @@
+18:20:26 **** Incremental Build of configuration Debug for project Q2 ****
+Info: Internal Builder is used for build
+gcc -o Q2.exe "src\\Q2.o" 
+
+18:20:26 Build Finished (took 139ms)
+

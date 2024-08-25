@@ -1,0 +1,33 @@
+/*
+ ============================================================================
+ Name        : Unit2_Ass1_Q6.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+// Online C compiler to run C program online
+#include <stdio.h>
+#include <stdlib.h>
+int main()
+{
+    float a,b,temp;
+    fflush(stdout);fflush(stdin);
+    printf("Enter value of a:\n");
+    fflush(stdout);fflush(stdin);
+    scanf("%f",&a);
+    fflush(stdout);fflush(stdin);
+    printf("Enter value of b:\n");
+    fflush(stdout);fflush(stdin);
+    scanf("%f",&b);
+    fflush(stdout);fflush(stdin);
+    temp=a;
+    a=b;
+    b=temp;
+    printf("After swapping, value of a = %.2f\n", a);
+    printf("After swapping, value of b = %.2f", b);
+    fflush(stdout);fflush(stdin);
+
+    return 0;
+}

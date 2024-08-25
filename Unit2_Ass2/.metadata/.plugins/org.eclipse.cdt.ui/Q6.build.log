@@ -1,0 +1,7 @@
+19:18:07 **** Incremental Build of configuration Debug for project Q6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Q6.o" "..\\src\\Q6.c" 
+gcc -o Q6.exe "src\\Q6.o" 
+
+19:18:08 Build Finished (took 289ms)
+

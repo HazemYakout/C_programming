@@ -1,0 +1,36 @@
+/*
+ ============================================================================
+ Name        : Q3.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+	float num1,num2,num3;
+	fflush(stdin);fflush(stdout);
+	scanf("%f%f%f",&num1,&num2,&num3);
+	fflush(stdin);fflush(stdout);
+	if(num1>num2&&num1>num3)
+	{
+		printf("Largest num is: %f ",num1);
+	}
+	else if(num2>num1&&num2>num3)
+		printf("Largest num is: %f ",num2);
+	else
+		printf("Largest num is: %f ",num3);
+ return 0;
+
+
+
+
+}
+
+
+

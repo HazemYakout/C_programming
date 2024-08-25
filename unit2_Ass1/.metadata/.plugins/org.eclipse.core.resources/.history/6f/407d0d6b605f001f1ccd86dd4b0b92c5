@@ -1,0 +1,24 @@
+/*
+ ============================================================================
+ Name        : Unit2_Ass1_Q4.c
+ Author      : Hazem Yakout
+ Version     : 1.0
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+	float num1,num2;
+	printf("enter two numbers :\n");
+	fflush(stdout);fflush(stdin);
+	scanf("%f%f",&num1,&num2);
+	fflush(stdout);fflush(stdin);
+	printf("product : %.6f",num1*num2);
+	return 0;
+
+}

@@ -1,0 +1,22 @@
+/*
+ ============================================================================
+ Name        : Unit2_Ass1_Q2.c
+ Author      : Hazem Yakout
+ Version     : 1.0
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{	float x=0;
+	printf("Enter a integer :");
+	fflush(stdout);fflush(stdin);
+	scanf("%f",&x);
+	fflush(stdout);fflush(stdin);
+	printf("you entered : %f",(int)x);
+	fflush(stdout);fflush(stdin);
+}

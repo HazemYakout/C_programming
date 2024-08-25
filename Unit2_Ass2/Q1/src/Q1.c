@@ -1,0 +1,31 @@
+/*
+ ============================================================================
+ Name        : Q1.c
+ Author      : Hazem Yakout
+ Version     :
+ Copyright   : Your copyright notice
+ Description : C Program to Check Whethera Numberis Even or Odd
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+	int x ;
+	fflush(stdin);fflush(stdout);
+	printf("enter an integer you want to check :\n");
+	fflush(stdin);fflush(stdout);
+	scanf("%d",&x);
+	if(x%2==0)
+	{
+
+		printf("%d is even",x);
+		fflush(stdin);fflush(stdout);
+	}
+	else
+		printf("%d is odd",x);
+	fflush(stdin);fflush(stdout);
+
+}

@@ -1,0 +1,26 @@
+/*
+ ============================================================================
+ Name        : Q1.c
+ Author      : Hazem Yakout
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+	int x ;
+	printf("enter an integer you want to check :\n");
+	if(x%2==0)
+	{
+		scanf("%d",&x);
+		printf("%d is even",x);
+	}
+	else
+		printf("%d is odd",x);
+
+}

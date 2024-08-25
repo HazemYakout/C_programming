@@ -1,0 +1,47 @@
+16:44:32 **** Incremental Build of configuration Debug for project Unit2_Ass1_Q6 ****
+Info: Internal Builder is used for build
+gcc -o Unit2_Ass1_Q6.exe "src\\Unit2_Ass1_Q6.o" 
+Info: Nothing to build for Unit2_Ass1_Q6
+16:45:51 **** Incremental Build of configuration Debug for project Unit2_Ass1_Q6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Ass1_Q6.o" "..\\src\\Unit2_Ass1_Q6.c" 
+gcc -o Unit2_Ass1_Q6.exe "src\\Unit2_Ass1_Q6.o" 
+16:50:28 **** Rebuild of configuration Debug for project Unit2_Ass1_Q7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Ass1_Q7.o" "..\\src\\Unit2_Ass1_Q7.c" 
+gcc -o Unit2_Ass1_Q7.exe "src\\Unit2_Ass1_Q7.o" 
+16:50:35 **** Incremental Build of configuration Debug for project Unit2_Ass1_Q7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Ass1_Q7.o" "..\\src\\Unit2_Ass1_Q7.c" 
+..\src\Unit2_Ass1_Q7.c: In function 'main':
+..\src\Unit2_Ass1_Q7.c:26:5: error: 'x' undeclared (first use in this function)
+     x=a+b;
+     ^
+..\src\Unit2_Ass1_Q7.c:26:5: note: each undeclared identifier is reported only once for each function it appears in
+..\src\Unit2_Ass1_Q7.c:16:15: warning: unused variable 'temp' [-Wunused-variable]
+     float a,b,temp;
+               ^~~~
+16:50:54 **** Incremental Build of configuration Debug for project Unit2_Ass1_Q7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Ass1_Q7.o" "..\\src\\Unit2_Ass1_Q7.c" 
+gcc -o Unit2_Ass1_Q7.exe "src\\Unit2_Ass1_Q7.o" 
+16:54:29 **** Incremental Build of configuration Debug for project Unit2_Ass1_Q7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Ass1_Q7.o" "..\\src\\Unit2_Ass1_Q7.c" 
+..\src\Unit2_Ass1_Q7.c: In function 'main':
+..\src\Unit2_Ass1_Q7.c:26:11: error: invalid operands to binary ^ (have 'float' and 'float')
+     a = a ^ b;
+           ^
+..\src\Unit2_Ass1_Q7.c:27:11: error: invalid operands to binary ^ (have 'float' and 'float')
+     b = a ^ b;
+           ^
+..\src\Unit2_Ass1_Q7.c:28:11: error: invalid operands to binary ^ (have 'float' and 'float')
+     a = a ^ b;
+           ^
+..\src\Unit2_Ass1_Q7.c:16:15: warning: unused variable 'x' [-Wunused-variable]
+     float a,b,x;
+               ^
+16:55:08 **** Incremental Build of configuration Debug for project Unit2_Ass1_Q7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unit2_Ass1_Q7.o" "..\\src\\Unit2_Ass1_Q7.c" 
+gcc -o Unit2_Ass1_Q7.exe "src\\Unit2_Ass1_Q7.o" 

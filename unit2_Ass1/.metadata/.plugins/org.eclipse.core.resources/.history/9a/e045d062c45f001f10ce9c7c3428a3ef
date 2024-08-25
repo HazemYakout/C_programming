@@ -1,0 +1,34 @@
+/*
+ ============================================================================
+ Name        : Unit2_Ass1_Q7.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    float a,b,temp;
+    fflush(stdout);fflush(stdin);
+    printf("Enter value of a:\n");
+    fflush(stdout);fflush(stdin);
+    scanf("%f",&a);
+    fflush(stdout);fflush(stdin);
+    printf("Enter value of b:\n");
+    fflush(stdout);fflush(stdin);
+    scanf("%f",&b);
+    fflush(stdout);fflush(stdin);
+    x=a+b;
+    b=x-b;
+    a=x-a;
+    printf("After swapping, value of a = %.2f\n", a);
+    printf("After swapping, value of b = %.1f", b);
+    fflush(stdout);fflush(stdin);
+
+    return 0;
+}
