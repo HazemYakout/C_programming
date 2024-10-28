@@ -1,0 +1,15 @@
+16:47:33 **** Rebuild of configuration Debug for project Reverse_sentence ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Reverse_sentence.o" "..\\src\\Reverse_sentence.c" 
+gcc -o Reverse_sentence.exe "src\\Reverse_sentence.o" 
+16:47:40 **** Incremental Build of configuration Debug for project Reverse_sentence ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Reverse_sentence.o" "..\\src\\Reverse_sentence.c" 
+gcc -o Reverse_sentence.exe "src\\Reverse_sentence.o" 
+Info: Nothing to build for Reverse_sentence
+16:50:44 **** Incremental Build of configuration Debug for project Reverse_sentence ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Reverse_sentence.o" "..\\src\\Reverse_sentence.c" 
+gcc -o Reverse_sentence.exe "src\\Reverse_sentence.o" 
+Info: Nothing to build for Reverse_sentence
+Info: Nothing to build for Reverse_sentence

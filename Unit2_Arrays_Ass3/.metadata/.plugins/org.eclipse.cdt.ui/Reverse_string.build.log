@@ -1,0 +1,13 @@
+15:04:26 **** Incremental Build of configuration Debug for project Reverse_string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Reverse_string.o" "..\\src\\Reverse_string.c" 
+..\src\Reverse_string.c: In function 'main':
+..\src\Reverse_string.c:23:11: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  length = strlen(str1);
+           ^~~~~~
+..\src\Reverse_string.c:23:11: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Reverse_string.c:23:11: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o Reverse_string.exe "src\\Reverse_string.o" 
+
+15:04:26 Build Finished (took 377ms)
+

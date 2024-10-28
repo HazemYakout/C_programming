@@ -1,136 +1,14 @@
-15:18:48 **** Incremental Build of configuration Debug for project Avg_arrays ****
+15:04:21 **** Rebuild of configuration Debug for project Reverse_string ****
 Info: Internal Builder is used for build
-gcc -o Avg_arrays.exe "src\\Avg_arrays.o" 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Avg_arrays.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-15:18:53 **** Incremental Build of configuration Debug for project Avg_arrays ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Reverse_string.o" "..\\src\\Reverse_string.c" 
+gcc -o Reverse_string.exe "src\\Reverse_string.o" 
+15:04:26 **** Incremental Build of configuration Debug for project Reverse_string ****
 Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Avg_arrays.o" "..\\src\\Avg_arrays.c" 
-gcc -o Avg_arrays.exe "src\\Avg_arrays.o" 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Avg_arrays.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-15:19:44 **** Incremental Build of configuration Debug for project Avg_arrays ****
-Info: Internal Builder is used for build
-gcc -o Avg_arrays.exe "src\\Avg_arrays.o" 
-Info: Nothing to build for Avg_arrays
-15:25:24 **** Rebuild of configuration Debug for project Sum_2x2Array ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Sum_2x2Array.o" "..\\src\\Sum_2x2Array.c" 
-..\src\Sum_2x2Array.c: In function 'main':
-..\src\Sum_2x2Array.c:28:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'float (*)[2]' [-Wformat=]
-    scanf("%f",&arr_1[r]);
-            ^
-..\src\Sum_2x2Array.c:41:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'float (*)[2]' [-Wformat=]
-    scanf("%f",&arr_2[r]);
-            ^
-gcc -o Sum_2x2Array.exe "src\\Sum_2x2Array.o" 
-15:26:20 **** Incremental Build of configuration Debug for project Sum_2x2Array ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Sum_2x2Array.o" "..\\src\\Sum_2x2Array.c" 
-..\src\Sum_2x2Array.c: In function 'main':
-..\src\Sum_2x2Array.c:28:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'float (*)[2]' [-Wformat=]
-    scanf("%f",&arr_1[r]);
-            ^
-..\src\Sum_2x2Array.c:41:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'float (*)[2]' [-Wformat=]
-    scanf("%f",&arr_2[r]);
-            ^
-gcc -o Sum_2x2Array.exe "src\\Sum_2x2Array.o" 
-Info: Nothing to build for Sum_2x2Array
-Info: Nothing to build for Sum_2x2Array
-15:28:26 **** Incremental Build of configuration Debug for project Sum_2x2Array ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Sum_2x2Array.o" "..\\src\\Sum_2x2Array.c" 
-gcc -o Sum_2x2Array.exe "src\\Sum_2x2Array.o" 
-Info: Nothing to build for Sum_2x2Array
-15:53:06 **** Rebuild of configuration Debug for project Transpose_matrix ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Transpose_matrix.o" "..\\src\\Transpose_matrix.c" 
-gcc -o Transpose_matrix.exe "src\\Transpose_matrix.o" 
-15:53:12 **** Incremental Build of configuration Debug for project Transpose_matrix ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Transpose_matrix.o" "..\\src\\Transpose_matrix.c" 
-..\src\Transpose_matrix.c: In function 'main':
-..\src\Transpose_matrix.c:37:15: error: expected ')' before ';' token
-    printf("\n";)
-               ^
-..\src\Transpose_matrix.c:38:3: error: expected ';' before '}' token
-   }
-   ^
-..\src\Transpose_matrix.c:19:6: warning: unused variable 'transpose' [-Wunused-variable]
-  int transpose [100][100];
-      ^~~~~~~~~
-15:54:04 **** Incremental Build of configuration Debug for project Transpose_matrix ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Transpose_matrix.o" "..\\src\\Transpose_matrix.c" 
-..\src\Transpose_matrix.c: In function 'main':
-..\src\Transpose_matrix.c:19:6: warning: unused variable 'transpose' [-Wunused-variable]
-  int transpose[100][100];
-      ^~~~~~~~~
-gcc -o Transpose_matrix.exe "src\\Transpose_matrix.o" 
-15:57:29 **** Incremental Build of configuration Debug for project Transpose_matrix ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Transpose_matrix.o" "..\\src\\Transpose_matrix.c" 
-..\src\Transpose_matrix.c: In function 'main':
-..\src\Transpose_matrix.c:19:6: warning: unused variable 'transpose' [-Wunused-variable]
-  int transpose[100][100];
-      ^~~~~~~~~
-gcc -o Transpose_matrix.exe "src\\Transpose_matrix.o" 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Transpose_matrix.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-16:12:09 **** Incremental Build of configuration Debug for project Transpose_matrix ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Transpose_matrix.o" "..\\src\\Transpose_matrix.c" 
-gcc -o Transpose_matrix.exe "src\\Transpose_matrix.o" 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Transpose_matrix.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-16:12:19 **** Incremental Build of configuration Debug for project Transpose_matrix ****
-Info: Internal Builder is used for build
-gcc -o Transpose_matrix.exe "src\\Transpose_matrix.o" 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Transpose_matrix.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-16:44:12 **** Rebuild of configuration Debug for project insert_element ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\insert_element.o" "..\\src\\insert_element.c" 
-gcc -o insert_element.exe "src\\insert_element.o" 
-16:44:21 **** Incremental Build of configuration Debug for project insert_element ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\insert_element.o" "..\\src\\insert_element.c" 
-gcc -o insert_element.exe "src\\insert_element.o" 
-Info: Nothing to build for insert_element
-16:45:46 **** Incremental Build of configuration Debug for project insert_element ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\insert_element.o" "..\\src\\insert_element.c" 
-gcc -o insert_element.exe "src\\insert_element.o" 
-c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file insert_element.exe: Permission denied
-collect2.exe: error: ld returned 1 exit status
-16:48:42 **** Incremental Build of configuration Debug for project insert_element ****
-Info: Internal Builder is used for build
-gcc -o insert_element.exe "src\\insert_element.o" 
-Info: Nothing to build for insert_element
-Info: Nothing to build for insert_element
-16:58:25 **** Rebuild of configuration Debug for project linear_search ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\linear_search.o" "..\\src\\linear_search.c" 
-gcc -o linear_search.exe "src\\linear_search.o" 
-16:58:40 **** Incremental Build of configuration Debug for project linear_search ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\linear_search.o" "..\\src\\linear_search.c" 
-..\src\linear_search.c: In function 'main':
-..\src\linear_search.c:40:9: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
-         if(search==A[i])
-         ^~
-..\src\linear_search.c:41:24: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'if'
-         fflush(stdout);fflush(stdin);
-                        ^~~~~~
-..\src\linear_search.c:14:25: warning: unused variable 'location' [-Wunused-variable]
-     int i, num, search, location;
-                         ^~~~~~~~
-gcc -o linear_search.exe "src\\linear_search.o" 
-16:59:38 **** Incremental Build of configuration Debug for project linear_search ****
-Info: Internal Builder is used for build
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\linear_search.o" "..\\src\\linear_search.c" 
-..\src\linear_search.c: In function 'main':
-..\src\linear_search.c:14:25: warning: unused variable 'location' [-Wunused-variable]
-     int i, num, search, location;
-                         ^~~~~~~~
-gcc -o linear_search.exe "src\\linear_search.o" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Reverse_string.o" "..\\src\\Reverse_string.c" 
+..\src\Reverse_string.c: In function 'main':
+..\src\Reverse_string.c:23:11: warning: implicit declaration of function 'strlen' [-Wimplicit-function-declaration]
+  length = strlen(str1);
+           ^~~~~~
+..\src\Reverse_string.c:23:11: warning: incompatible implicit declaration of built-in function 'strlen'
+..\src\Reverse_string.c:23:11: note: include '<string.h>' or provide a declaration of 'strlen'
+gcc -o Reverse_string.exe "src\\Reverse_string.o" 

@@ -1,0 +1,7 @@
+14:01:01 **** Incremental Build of configuration Debug for project letter_frequency ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\letter_frequency.o" "..\\src\\letter_frequency.c" 
+gcc -o letter_frequency.exe "src\\letter_frequency.o" 
+
+14:01:01 Build Finished (took 358ms)
+
