@@ -1,0 +1,7 @@
+15:44:55 **** Incremental Build of configuration Debug for project Prime numbers between 2 inputs ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Prime numbers between 2 inputs.o" "..\\src\\Prime numbers between 2 inputs.c" 
+gcc -o "Prime numbers between 2 inputs.exe" "src\\Prime numbers between 2 inputs.o" 
+
+15:44:56 Build Finished (took 327ms)
+

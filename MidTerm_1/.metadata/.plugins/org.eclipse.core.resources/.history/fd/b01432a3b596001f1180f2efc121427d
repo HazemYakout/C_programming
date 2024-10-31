@@ -1,0 +1,38 @@
+/*
+ ============================================================================
+ Name        : number_sum.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+int sumdigits(int num);
+int main(void)
+{
+	int num;
+	fflush(stdin);fflush(stdout);
+	scanf("%d",&num);
+	fflush(stdin);fflush(stdout);
+	printf("%d",sumdigits(num));
+	fflush(stdin);fflush(stdout);
+	return 0;
+}
+int sumdigits(int num)
+{
+	int re=0,temp;
+	if(num>0)
+	{
+		temp=num%10;
+		re+=temp;
+		sumdigits(num/10);
+		return re;
+	}
+	else
+		return 0;
+
+
+}

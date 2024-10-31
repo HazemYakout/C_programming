@@ -1,0 +1,7 @@
+19:17:09 **** Incremental Build of configuration Debug for project count number of ones in binary number ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\count number of ones in binary number.o" "..\\src\\count number of ones in binary number.c" 
+gcc -o "count number of ones in binary number.exe" "src\\count number of ones in binary number.o" 
+
+19:17:10 Build Finished (took 335ms)
+

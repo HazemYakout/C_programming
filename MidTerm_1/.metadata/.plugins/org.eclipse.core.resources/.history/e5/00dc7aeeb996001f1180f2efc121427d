@@ -1,0 +1,29 @@
+/*
+ ============================================================================
+ Name        : square_root.c
+ Author      : Hazem Yakout
+ Version     :
+ Copyright   : Your copyright notice
+ Description : getting a square root of a number
+ ============================================================================
+ */
+#include <math.h>
+#include <stdio.h>
+#include <stdlib.h>
+float sqr(int num);
+int main(void)
+{
+	int num;
+	fflush(stdin);fflush(stdout);
+	printf("Enter a number : %d",num);
+	fflush(stdin);fflush(stdout);
+	scanf("%d",&num);
+	fflush(stdin);fflush(stdout);
+	printf("Enter a number : %d", sqr(num));
+	fflush(stdin);fflush(stdout);
+}
+float sqr(int num)
+{
+	float x =pow(num,0.5);
+	return x;
+}

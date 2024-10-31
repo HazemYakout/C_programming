@@ -1,0 +1,7 @@
+20:23:27 **** Incremental Build of configuration Debug for project array and revers its elements ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array and revers its elements.o" "..\\src\\array and revers its elements.c" 
+gcc -o "array and revers its elements.exe" "src\\array and revers its elements.o" 
+
+20:23:27 Build Finished (took 331ms)
+

@@ -1,0 +1,35 @@
+/*
+ ============================================================================
+ Name        : reverse.c
+ Author      : Hazem Yakout
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Reverse the Sentence
+ ============================================================================
+ */
+
+#include <stdio.h>
+
+void Reverse();
+
+int main()
+{
+	printf("Enter a sentence: ");
+
+	Reverse();
+
+	return 0;
+}
+
+void Reverse()
+{
+	char c;
+	fflush(stdin); fflush(stdout);
+	scanf("%c",&c);
+
+	if(c !='\n')
+	{
+		Reverse();
+		printf("%c",c);
+	}
+}

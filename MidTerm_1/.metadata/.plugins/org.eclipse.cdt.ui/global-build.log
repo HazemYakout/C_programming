@@ -1,0 +1,242 @@
+19:17:03 **** Rebuild of configuration Debug for project count number of ones in binary number ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\count number of ones in binary number.o" "..\\src\\count number of ones in binary number.c" 
+gcc -o "count number of ones in binary number.exe" "src\\count number of ones in binary number.o" 
+19:17:09 **** Incremental Build of configuration Debug for project count number of ones in binary number ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\count number of ones in binary number.o" "..\\src\\count number of ones in binary number.c" 
+gcc -o "count number of ones in binary number.exe" "src\\count number of ones in binary number.o" 
+19:48:39 **** Rebuild of configuration Debug for project sum numbers from 1to100 (without loop) ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sum numbers from 1to100 (without loop).o" "..\\src\\sum numbers from 1to100 (without loop).c" 
+gcc -o "sum numbers from 1to100 (without loop).exe" "src\\sum numbers from 1to100 (without loop).o" 
+19:48:44 **** Incremental Build of configuration Debug for project sum numbers from 1to100 (without loop) ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\sum numbers from 1to100 (without loop).o" "..\\src\\sum numbers from 1to100 (without loop).c" 
+gcc -o "sum numbers from 1to100 (without loop).exe" "src\\sum numbers from 1to100 (without loop).o" 
+20:16:08 **** Rebuild of configuration Debug for project array and revers its elements ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array and revers its elements.o" "..\\src\\array and revers its elements.c" 
+gcc -o "array and revers its elements.exe" "src\\array and revers its elements.o" 
+20:16:14 **** Incremental Build of configuration Debug for project array and revers its elements ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array and revers its elements.o" "..\\src\\array and revers its elements.c" 
+gcc -o "array and revers its elements.exe" "src\\array and revers its elements.o" 
+20:17:51 **** Incremental Build of configuration Debug for project array and revers its elements ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array and revers its elements.o" "..\\src\\array and revers its elements.c" 
+gcc -o "array and revers its elements.exe" "src\\array and revers its elements.o" 
+20:20:00 **** Incremental Build of configuration Debug for project array and revers its elements ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array and revers its elements.o" "..\\src\\array and revers its elements.c" 
+..\src\array and revers its elements.c: In function 'reverseArray':
+..\src\array and revers its elements.c:27:6: warning: variable 'temp' set but not used [-Wunused-but-set-variable]
+  int temp[5];
+      ^~~~
+gcc -o "array and revers its elements.exe" "src\\array and revers its elements.o" 
+20:20:43 **** Incremental Build of configuration Debug for project array and revers its elements ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array and revers its elements.o" "..\\src\\array and revers its elements.c" 
+gcc -o "array and revers its elements.exe" "src\\array and revers its elements.o" 
+src\array and revers its elements.o: In function `main':
+D:\learn_in_depth_git\C_programming\MidTerm_1\array and revers its elements\Debug/../src/array and revers its elements.c:19: undefined reference to `printArray'
+D:\learn_in_depth_git\C_programming\MidTerm_1\array and revers its elements\Debug/../src/array and revers its elements.c:22: undefined reference to `printArray'
+collect2.exe: error: ld returned 1 exit status
+20:21:29 **** Incremental Build of configuration Debug for project array and revers its elements ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array and revers its elements.o" "..\\src\\array and revers its elements.c" 
+gcc -o "array and revers its elements.exe" "src\\array and revers its elements.o" 
+src\array and revers its elements.o: In function `main':
+D:\learn_in_depth_git\C_programming\MidTerm_1\array and revers its elements\Debug/../src/array and revers its elements.c:19: undefined reference to `printArray'
+collect2.exe: error: ld returned 1 exit status
+20:21:49 **** Incremental Build of configuration Debug for project array and revers its elements ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array and revers its elements.o" "..\\src\\array and revers its elements.c" 
+gcc -o "array and revers its elements.exe" "src\\array and revers its elements.o" 
+20:22:46 **** Incremental Build of configuration Debug for project array and revers its elements ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array and revers its elements.o" "..\\src\\array and revers its elements.c" 
+..\src\array and revers its elements.c: In function 'main':
+..\src\array and revers its elements.c:18:5: error: too few arguments to function 'printArray'
+     printArray(arr);
+     ^~~~~~~~~~
+..\src\array and revers its elements.c:13:6: note: declared here
+ void printArray(int arr[], int size);
+      ^~~~~~~~~~
+20:23:27 **** Incremental Build of configuration Debug for project array and revers its elements ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\array and revers its elements.o" "..\\src\\array and revers its elements.c" 
+gcc -o "array and revers its elements.exe" "src\\array and revers its elements.o" 
+20:31:42 **** Rebuild of configuration Debug for project reverse words in string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\reverse words in string.o" "..\\src\\reverse words in string.c" 
+gcc -o "reverse words in string.exe" "src\\reverse words in string.o" 
+20:31:46 **** Incremental Build of configuration Debug for project reverse words in string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\reverse words in string.o" "..\\src\\reverse words in string.c" 
+gcc -o "reverse words in string.exe" "src\\reverse words in string.o" 
+20:34:12 **** Incremental Build of configuration Debug for project reverse words in string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\reverse words in string.o" "..\\src\\reverse words in string.c" 
+..\src\reverse words in string.c: In function 'Reverse':
+..\src\reverse words in string.c:34:2: error: expected declaration or statement at end of input
+  }
+  ^
+20:34:30 **** Incremental Build of configuration Debug for project reverse words in string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\reverse words in string.o" "..\\src\\reverse words in string.c" 
+gcc -o "reverse words in string.exe" "src\\reverse words in string.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file reverse words in string.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:34:51 **** Incremental Build of configuration Debug for project reverse words in string ****
+Info: Internal Builder is used for build
+gcc -o "reverse words in string.exe" "src\\reverse words in string.o" 
+Info: Nothing to build for reverse words in string
+20:35:28 **** Incremental Build of configuration Debug for project reverse words in string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\reverse words in string.o" "..\\src\\reverse words in string.c" 
+gcc -o "reverse words in string.exe" "src\\reverse words in string.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file reverse words in string.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:36:22 **** Incremental Build of configuration Debug for project reverse words in string ****
+Info: Internal Builder is used for build
+gcc -o "reverse words in string.exe" "src\\reverse words in string.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file reverse words in string.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:37:56 **** Incremental Build of configuration Debug for project reverse words in string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\reverse words in string.o" "..\\src\\reverse words in string.c" 
+gcc -o "reverse words in string.exe" "src\\reverse words in string.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file reverse words in string.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:43:21 **** Incremental Build of configuration Debug for project reverse words in string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\reverse words in string.o" "..\\src\\reverse words in string.c" 
+..\src\reverse words in string.c: In function 'main':
+..\src\reverse words in string.c:17:10: warning: passing argument 1 of 'gets' from incompatible pointer type [-Wincompatible-pointer-types]
+     gets(arr);
+          ^~~
+In file included from ..\src\reverse words in string.c:11:0:
+c:\mingw\include\stdio.h:676:41: note: expected 'char *' but argument is of type 'int *'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char * gets (char *);
+                                         ^~~~
+..\src\reverse words in string.c:18:12: warning: passing argument 1 of 'strrev' from incompatible pointer type [-Wincompatible-pointer-types]
+     strrev(arr);
+            ^~~
+In file included from ..\src\reverse words in string.c:12:0:
+c:\mingw\include\string.h:143:40: note: expected 'char *' but argument is of type 'int *'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strrev (char *);
+                                        ^~~~~~
+gcc -o "reverse words in string.exe" "src\\reverse words in string.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file reverse words in string.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:43:46 **** Incremental Build of configuration Debug for project reverse words in string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\reverse words in string.o" "..\\src\\reverse words in string.c" 
+..\src\reverse words in string.c: In function 'main':
+..\src\reverse words in string.c:17:10: warning: passing argument 1 of 'gets' from incompatible pointer type [-Wincompatible-pointer-types]
+     gets(arr);
+          ^~~
+In file included from ..\src\reverse words in string.c:11:0:
+c:\mingw\include\stdio.h:676:41: note: expected 'char *' but argument is of type 'int *'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char * gets (char *);
+                                         ^~~~
+..\src\reverse words in string.c:18:12: warning: passing argument 1 of 'strrev' from incompatible pointer type [-Wincompatible-pointer-types]
+     strrev(arr);
+            ^~~
+In file included from ..\src\reverse words in string.c:12:0:
+c:\mingw\include\string.h:143:40: note: expected 'char *' but argument is of type 'int *'
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strrev (char *);
+                                        ^~~~~~
+..\src\reverse words in string.c:19:33: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'int *' [-Wformat=]
+     printf("Reversed sentence: %s\n", arr);
+                                 ^
+gcc -o "reverse words in string.exe" "src\\reverse words in string.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file reverse words in string.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:50:36 **** Incremental Build of configuration Debug for project reverse words in string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\reverse words in string.o" "..\\src\\reverse words in string.c" 
+gcc -o "reverse words in string.exe" "src\\reverse words in string.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file reverse words in string.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:50:44 **** Incremental Build of configuration Debug for project reverse words in string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\reverse words in string.o" "..\\src\\reverse words in string.c" 
+gcc -o "reverse words in string.exe" "src\\reverse words in string.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file reverse words in string.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:51:28 **** Incremental Build of configuration Debug for project reverse words in string ****
+Info: Internal Builder is used for build
+gcc -o "reverse words in string.exe" "src\\reverse words in string.o" 
+20:53:27 **** Incremental Build of configuration Debug for project reverse words in string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\reverse words in string.o" "..\\src\\reverse words in string.c" 
+gcc -o "reverse words in string.exe" "src\\reverse words in string.o" 
+Info: Nothing to build for reverse words in string
+23:27:29 **** Incremental Build of configuration Debug for project reverse words in string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\reverse words in string.o" "..\\src\\reverse words in string.c" 
+gcc -o "reverse words in string.exe" "src\\reverse words in string.o" 
+Info: Nothing to build for reverse words in string
+23:28:42 **** Incremental Build of configuration Debug for project reverse words in string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\reverse words in string.o" "..\\src\\reverse words in string.c" 
+gcc -o "reverse words in string.exe" "src\\reverse words in string.o" 
+23:29:02 **** Incremental Build of configuration Debug for project reverse words in string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\reverse words in string.o" "..\\src\\reverse words in string.c" 
+gcc -o "reverse words in string.exe" "src\\reverse words in string.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file reverse words in string.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:29:08 **** Incremental Build of configuration Debug for project reverse words in string ****
+Info: Internal Builder is used for build
+gcc -o "reverse words in string.exe" "src\\reverse words in string.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file reverse words in string.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:29:19 **** Incremental Build of configuration Debug for project reverse words in string ****
+Info: Internal Builder is used for build
+gcc -o "reverse words in string.exe" "src\\reverse words in string.o" 
+Info: Nothing to build for reverse words in string
+23:29:50 **** Incremental Build of configuration Debug for project reverse words in string ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\reverse words in string.o" "..\\src\\reverse words in string.c" 
+gcc -o "reverse words in string.exe" "src\\reverse words in string.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file reverse words in string.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:29:53 **** Incremental Build of configuration Debug for project reverse words in string ****
+Info: Internal Builder is used for build
+gcc -o "reverse words in string.exe" "src\\reverse words in string.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file reverse words in string.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:30:06 **** Incremental Build of configuration Debug for project reverse words in string ****
+Info: Internal Builder is used for build
+gcc -o "reverse words in string.exe" "src\\reverse words in string.o" 
+Info: Nothing to build for reverse words in string
+12:52:31 **** Rebuild of configuration Debug for project Unique number ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unique number.o" "..\\src\\Unique number.c" 
+gcc -o "Unique number.exe" "src\\Unique number.o" 
+12:52:39 **** Incremental Build of configuration Debug for project Unique number ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unique number.o" "..\\src\\Unique number.c" 
+gcc -o "Unique number.exe" "src\\Unique number.o" 
+12:55:25 **** Incremental Build of configuration Debug for project Unique number ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Unique number.o" "..\\src\\Unique number.c" 
+gcc -o "Unique number.exe" "src\\Unique number.o" 
+13:42:23 **** Rebuild of configuration Debug for project Max number of ones ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Max number of ones.o" "..\\src\\Max number of ones.c" 
+gcc -o "Max number of ones.exe" "src\\Max number of ones.o" 
+Info: Nothing to build for Unique number
+13:42:29 **** Incremental Build of configuration Debug for project Max number of ones ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Max number of ones.o" "..\\src\\Max number of ones.c" 
+..\src\Max number of ones.c:52:2: error: expected identifier or '(' before '}' token
+ }}
+  ^
+13:42:43 **** Incremental Build of configuration Debug for project Max number of ones ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Max number of ones.o" "..\\src\\Max number of ones.c" 
+gcc -o "Max number of ones.exe" "src\\Max number of ones.o" 
